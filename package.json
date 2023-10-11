@@ -1,0 +1,22 @@
+{
+  "name": "relay-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "res:dev": "rescript build -w",
+    "res:build": "rescript",
+    "relay:dev": "rescript-relay-compiler --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rescript/react": "^0.11.0",
+    "react-relay-network-modern": "^6.2.2",
+    "react-relay-network-modern-ssr": "^1.4.0",
+    "relay-runtime": "^15.0.0",
+    "rescript": "^11.0.0-rc.4",
+    "rescript-relay": "^2.0.3"
+  }
+}

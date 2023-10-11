@@ -1,0 +1,25 @@
+{
+    "name": "rescript-relay-esm",
+    "uncurried": false,
+    "sources": [
+        {
+            "dir": "src",
+            "subdirs": true
+        }
+    ],
+    "package-specs": {
+        "module": "es6",
+        "in-source": true,
+        "suffix": ".mjs"
+    },
+    "ppx-flags": [
+        "rescript-relay/ppx"
+    ],
+    "bs-dependencies": [
+        "rescript-relay",
+        "@rescript/react"
+    ],
+    "namespace": true,
+    "bs-dev-dependencies": [],
+    "bsc-flags": []
+}
